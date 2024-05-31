@@ -6,5 +6,5 @@ app = Flask(__name__)
 def saludo(Naiara):
     return f"hola {Naiara}"
 
-if __name__ == '__manzana__':
+if __name__ == '__main__':
     app.run(debug=True, port=3000)
